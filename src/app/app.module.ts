@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {SuiModule} from 'ng2-semantic-ui';
 import { ArticleComponent } from './article/article.component';
 
 
@@ -13,7 +14,8 @@ import { ArticleComponent } from './article/article.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SuiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
